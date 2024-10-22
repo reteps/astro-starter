@@ -1,13 +1,13 @@
-local_backend: true
+local_backend: false
 
 logo_url: /logo.svg
 
 backend:
     name: github
     branch: main
-    repo: zankhq/astro-starter
-    site_domain: astrostarter.majestico.it
-    base_url: https://astrostarter.majestico.it
+    repo: reteps/astro-starter
+    site_domain: localhost:4321
+    base_url: https://sveltia-github-auth.pete-1e3.workers.dev
     auth_endpoint: oauth
     automatic_deployments: true
 
